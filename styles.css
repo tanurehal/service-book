@@ -1,0 +1,126 @@
+#nav{
+    padding : 10px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,134,255,1) 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.nav-brand{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#search-bar{
+    float : right;
+    color: white;
+}
+#formField{
+    margin: 10% auto 10% auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2%;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    width : 350px;
+}
+input[type='text'],input[type='password'],select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+#formField label{
+    display: inline-block;
+    width: 150px;
+}
+#logout{
+    background-color: rgba(0, 128, 0, 0.459);
+    border: 2px solid rgb(0, 68, 0);
+    color: rgb(0, 68, 0);
+    margin-top: 1.5%;
+    padding: 2%;
+}
+.error{
+    background-color: red;
+    margin-top: 0%;
+}
+#modal{
+    display: none;
+} 
+button{
+    background-color:  rgba(20, 0, 94, 0.308);
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    transform: scale(1.15);
+}
+#question{
+    display:inline;
+}
+#pwbtn{
+    @media screen and (max-width: 900px){
+        float:right;
+        position: relative;
+        right:75%;
+    }
+}
+.userque{
+    margin: 10% auto 10% auto;
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.712);
+}
+.container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 10vw 1fr;
+    grid-gap: 20px;
+    grid-template-rows: min-content;
+    grid-template-areas: "sidebar main-table";
+}
+#main-table{
+    text-align: center;
+    grid-area: main-table;
+}
+.sidebar{
+    grid-area: sidebar;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,134,255,1) 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    align-self: start;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item:hover{
+    color: rgba(255, 255, 255, 0.712);
+}
+hr{
+    color: white;
+    border-top: 5px;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-style: dotted;
+    width: 25px;
+}
+
+
+
+
